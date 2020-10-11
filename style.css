@@ -1,0 +1,403 @@
+
+/* ------------------------------------------PORTFOLIO----------------------------------------- */
+body {
+    background:
+      linear-gradient(
+        to right, 
+        #1f7d94 0%,
+        rgb(119, 207, 223) 40%,
+        rgb(231, 231, 165) 40%,
+        rgb(230, 233, 187) 100%
+      );
+      
+  }
+  
+  
+  #left-table{
+    margin-top:80px ;
+    margin-left:100px ;
+    width:100px; 
+    float: left;
+  
+  }
+  
+  .name {
+    font-size: 22px;
+    font-family: "Merriweather";
+    color: black;
+  }
+  
+  .About {
+    color: black;
+    font-family: "PT+Serif"; 
+  }
+  
+  .links {
+    line-height: 1 px;
+    font-size: 15px;
+  }
+  
+  .contacts {
+    font-size: 18px;
+    font-family : "PT+Serif";
+  }
+  
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(231, 227, 228);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(195, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  #right-table{
+    margin-top:20px ;
+    margin-left:900px ;
+    width:100px; 
+    position: pit absolute;
+  } 
+  
+  /* -----------------------------------------------PORTFOLIO-END--------------------------------------------- */
+  
+  /* -----------------------------------------------EDUCATION--------------------------------------------- */
+  
+  .edu {
+    background:
+      linear-gradient(
+        to right, 
+        #1f7d94 0%,
+        rgb(119, 207, 223) 40%,
+        rgb(231, 231, 165) 40%,
+        rgb(230, 233, 187) 100%
+      );
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+      
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+  }
+  
+  .nav-link-wrapper {
+    display: flex;
+    height: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  .nav-link-wrapper a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+  
+  #left-table-edu{
+    margin-top:80px ;
+    margin-left:100px ;
+    width:100px; 
+    float: left;
+  
+  }
+  
+  .name.edu {
+    font-size: 22px;
+    font-family: "Merriweather";
+    color: black;
+  }
+  
+  .About.edu {
+    color: black;
+    font-family: "PT+Serif"; 
+  }
+  
+  .links.edu {
+    line-height: 1 px;
+    font-size: 15px;
+  }
+  
+  .contacts.edu {
+    font-size: 18px;
+    font-family : "PT+Serif";
+  }
+  
+  .link.edu {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .visited.edu {
+    color: rgb(231, 227, 228);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .hover.edu {
+    color: rgb(195, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+   .active.edu {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+ 
+  
+  #right-table-edu{
+    margin-top:20px ;
+    margin-left:700px ; 
+    /* border: 1px solid black; */
+    width:50%;
+  } 
+  
+  /* -----------------------------------------------------EDUCATION-END------------------------------------------------------------ */
+  
+  /* -------------------------------------------------EXPERIENCES-END------------------------------------------------------- */
+  
+  .expr {
+    background:
+      linear-gradient(
+        to right, 
+        #1f7d94 0%,
+        rgb(119, 207, 223) 40%,
+        rgb(231, 231, 165) 40%,
+        rgb(230, 233, 187) 100%
+      );
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+      
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+  }
+  
+  .nav-link-wrapper {
+    display: flex;
+    height: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  .nav-link-wrapper a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  
+  
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+  
+  #left-table-expr{
+    margin-top:80px ;
+    margin-left:100px ;
+    width:100px; 
+    float: left;
+  
+  }
+  
+  .name-expr {
+    font-size: 22px;
+    font-family: "Merriweather";
+    color: black;
+  }
+  
+  .About-expr- {
+    color: black;
+    font-family: "PT+Serif"; 
+  }
+  
+  .links-expr {
+    line-height: 1 px;
+    font-size: 15px;
+  }
+  
+  .contacts-expr {
+    font-size: 18px;
+    font-family : "PT+Serif";
+  }
+  
+  .link-expr {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .visited-expr {
+    color: rgb(231, 227, 228);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .hover-expr {
+    color: rgb(195, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .active-expr {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  #right-table-expr{
+    margin-top:20px ;
+    margin-left:700px ;
+    width:50%; 
+    /* border: 1px solid black;   */
+  } 
+  
+  /* ----------------------------------------EXPERIENCES-END---------------------------- */
+  
+  /* -----------------------------------SKILLS------------------------------------------------- */
+  
+  .exp {
+    background:
+      linear-gradient(
+        to right, 
+        #1f7d94 0%,
+        rgb(119, 207, 223) 40%,
+        rgb(231, 231, 165) 40%,
+        rgb(230, 233, 187) 100%
+      );
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+      
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+  }
+  
+  .nav-link-wrapper {
+    display: flex;
+    height: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  .nav-link-wrapper a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+  
+  #left-table-exp{
+    margin-top:80px ;
+    margin-left:100px ;
+    width:100px; 
+    float: left;
+  
+  }
+  
+  .name-exp {
+    font-size: 22px;
+    font-family: "Merriweather";
+    color: black;
+  }
+  
+  .About-exxp {
+    color: black;
+    font-family: "PT+Serif"; 
+  }
+  
+  .links-exp {
+    line-height: 1 px;
+    font-size: 15px;
+  }
+  
+  .contacts-exp {
+    font-size: 18px;
+    font-family : "PT+Serif";
+  }
+  
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(231, 227, 228);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(195, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  #right-table-exp{
+    margin-top:20px ;
+    margin-left:700px ;
+    /* border: 1px solid black;  */
+    width:50%;
+  } 
+  
+  * {box-sizing: border-box}
+  
+  .bar {
+    width: 70%;
+    background-color: #ddd;
+  }
+  
+  .skill bar {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #9578d8;}
+  .c {width: 80%; background-color: #59adf1;}
+  .java {width: 65%; background-color: #f391a9;}
+  .python {width: 75%; background-color: #67fd87;}
+  
+  ul.exta {
+    font-size: 15px;
+  }
+  
+  
+  
+  
+  
+  
+  /* --------------------------------------------------SKILLS-END------------------------------------------ */
+  
